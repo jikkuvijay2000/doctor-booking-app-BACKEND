@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 const allowedOrigins = [
-  'https://doctor-booking-app-jv.netlify.app/',
+  'https://doctor-booking-app-jv.netlify.app',
   // Add more origins if necessary
 ];
 
